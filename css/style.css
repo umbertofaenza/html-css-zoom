@@ -41,6 +41,7 @@ img {
     width: 90vw;
     height: calc(100vh - 202px);
     margin: 0 auto 20px;
+    overflow: auto;
     
     display: flex;
     flex-wrap: wrap;
