@@ -79,20 +79,13 @@ footer {
     height: 100%;
     display: flex;
     justify-content: space-between;
-
-    border: 1px solid goldenrod;
-}
-
-.footer-container > div {
-    width: 300px;
-    border: 1px solid dodgerblue;
 }
 
 .video-audio-controls {
     display: flex;
 }
 
-.audio, .video {
+.control {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -102,10 +95,14 @@ footer {
 
 .icon {
     text-align: center;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 .icon i {
     font-size: 2rem;
     margin: 5px 0;
+}
+
+.general-controls {
+    display: flex;
 }
