@@ -106,3 +106,14 @@ footer {
 .general-controls {
     display: flex;
 }
+
+.leave-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #777;
+    color: #e60000;
+    padding: 0 20px;
+    cursor: pointer;
+}
